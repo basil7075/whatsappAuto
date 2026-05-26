@@ -12,7 +12,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 load_dotenv()
 
-client = Groq(api_key = os.getenv("QROQ_API_KEY"))
+client = Groq(api_key = os.getenv("GROQ_API_KEY"))
 
 def send_whatsapp(contact,message):
 
